@@ -69,13 +69,14 @@ ingress:
      hosts:
        - blog.aouertani.com
 
-resources: {}
+resources: 
   limits:
     cpu: 200m
     memory: 128Mi
   requests:
     cpu: 200m
     memory: 128Mi
+
 
 autoscaling:
   enabled: false
